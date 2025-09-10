@@ -1,0 +1,21 @@
+:root {
+  --brand: 32 33 36; /* near-zinc-800 */
+  --accent: 24 119 242; /* blue */
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base tweaks */
+html, body { height: 100%; }
+
+.container-safe { @apply max-w-6xl mx-auto px-4; }
+
+.btn { @apply inline-flex items-center justify-center rounded-md px-4 py-2 font-medium transition-colors; }
+.btn-primary { @apply bg-zinc-900 text-white hover:bg-zinc-800; }
+.btn-outline { @apply ring-1 ring-zinc-300 hover:bg-zinc-100 text-zinc-900; }
+
+.card { @apply bg-white ring-1 ring-zinc-200 rounded-xl shadow-sm; }
+
+.badge { @apply inline-flex items-center rounded-full bg-zinc-100 text-zinc-700 px-2.5 py-1 text-xs font-medium; }
