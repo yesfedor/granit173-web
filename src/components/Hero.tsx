@@ -59,7 +59,7 @@ export default function Hero() {
         </div>
         <div className="relative" data-oid="z27ke.i">
           <div
-            className="aspect-[4/5] rounded-2xl bg-[url('@/app/assets/hero-stone.jpg')] bg-cover bg-center ring-1 ring-zinc-200 shadow-sm"
+            className="aspect-[4/5] rounded-2xl bg-[url('/hero-stone.jpg')] bg-cover bg-center ring-1 ring-zinc-200 shadow-sm"
             data-oid="xu:ymki" />
 
         </div>
