@@ -16,7 +16,7 @@ export default function Hero() {
             className="mt-4 text-3xl md:text-5xl font-semibold tracking-tight"
             data-oid="kjl0aju">
 
-            Памятники из гранита
+            Памятники из мрамора гранита
             <span
               className="block text-zinc-600 text-xl md:text-2xl mt-3"
               data-oid="26uh1hr">
@@ -54,14 +54,13 @@ export default function Hero() {
             <li data-oid="3jl-rhg">• Индивидуальные проекты</li>
             <li data-oid="xh9:dmh">• Монтаж под ключ</li>
             <li data-oid="_bxxy21">• Гарантия на работы</li>
-            <li data-oid="3c146rs">• Честные цены</li>
+            <li data-oid="3c146rs">• Скидки</li>
           </ul>
         </div>
         <div className="relative" data-oid="z27ke.i">
           <div
             className="aspect-[4/5] rounded-2xl bg-[url('/hero-stone.jpg')] bg-cover bg-center ring-1 ring-zinc-200 shadow-sm"
             data-oid="xu:ymki" />
-
         </div>
       </div>
     </section>);

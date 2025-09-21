@@ -39,15 +39,11 @@ export default function Footer() {
                 8 927 989-70-00
               </a>
             </li>
-            <li data-oid="6sd0ezt">
-              Email:{" "}
-              <a
-                className="hover:text-zinc-900"
-                href="mailto:granit.173@mail.ru"
-                data-oid="prompou">
-
-                granit.173@mail.ru
-              </a>
+            <li>
+              Пр-кт ульяновский 10
+            </li>
+            <li>
+              Ул. осиновая 2
             </li>
           </ul>
         </div>

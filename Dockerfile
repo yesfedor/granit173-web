@@ -9,7 +9,7 @@ WORKDIR /app
 
 RUN apk update && apk add --no-cache git
 
-RUN /bin/sh -c "git clone --single-branch --branch $BRANCH_NAME https://git.iny.su/public-projects/granit173.git ."
+RUN /bin/sh -c "git clone --single-branch --branch $BRANCH_NAME https://github.com/yesfedor/granit173-web.git ."
 
 COPY . .
 

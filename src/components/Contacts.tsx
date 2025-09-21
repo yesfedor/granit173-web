@@ -46,6 +46,12 @@ export default function Contacts() {
                 granit.173@mail.ru
               </a>
             </li>
+            <li>
+              Пр-кт ульяновский 10
+            </li>
+            <li>
+              Ул. осиновая 2
+            </li>
           </ul>
         </div>
         <div className="card p-4" data-oid="i6yz6l0">
