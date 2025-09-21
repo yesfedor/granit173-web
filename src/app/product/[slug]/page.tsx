@@ -3,6 +3,8 @@ import Link from "next/link";
 import { fetchProduct, getFullImageUrl } from "../../../utils/api";
 import { ProductResponse } from "../../../types";
 
+export const dynamic = 'force-dynamic'
+
 export async function generateMetadata({
   params
 

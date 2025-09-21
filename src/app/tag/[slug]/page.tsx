@@ -7,6 +7,8 @@ import {
 "../../../utils/api";
 import { CategoryResponse, CategoryProductsResponse } from "../../../types";
 
+export const dynamic = 'force-dynamic'
+
 export async function generateMetadata({
   params
 

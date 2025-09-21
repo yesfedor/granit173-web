@@ -4,6 +4,8 @@ import { fetchCategories } from "../../utils/api";
 import { getFullImageUrl } from "../../utils/api";
 import { CategoriesResponse } from "../../types";
 
+export const dynamic = 'force-dynamic'
+
 export const metadata = {
   title: "Каталог памятников — Granit173"
 };
