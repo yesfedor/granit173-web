@@ -4,7 +4,7 @@ export function getFullImageUrl(imageUrl: string): string {
   if (imageUrl.startsWith("http")) {
     return imageUrl;
   }
-  return `${REMOVE_ME}${imageUrl}`;
+  return `${API_BASE_URL}${imageUrl}`;
 }
 
 export async function fetchCategories() {
