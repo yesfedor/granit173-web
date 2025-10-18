@@ -1,10 +1,11 @@
-const API_BASE_URL = "https://box.granit173.ru";
+const API_BASE_URL = "http://localhost:3001";
+const REMOVE_ME = "https://box.granit173.ru";
 
 export function getFullImageUrl(imageUrl: string): string {
   if (imageUrl.startsWith("http")) {
     return imageUrl;
   }
-  return `${API_BASE_URL}${imageUrl}`;
+  return `${REMOVE_ME}${imageUrl}`;
 }
 
 export async function fetchCategories() {

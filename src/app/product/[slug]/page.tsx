@@ -25,6 +25,10 @@ export async function generateMetadata({
   }
 }
 
+const formatter = new Intl.NumberFormat('en-US', {
+  style: 'decimal',
+});
+
 export default async function ProductPage({
   params
 
@@ -84,6 +88,13 @@ export default async function ProductPage({
 
               {product.name}
             </h1>
+            {
+              product.size &&
+              <span className="text-2xl font-semibold tracking-tight mb-6">
+                Размер: {product.size}
+              </span>
+            }
+
 
             <div
               className="prose prose-zinc max-w-none mb-8"
@@ -95,6 +106,16 @@ export default async function ProductPage({
 
                 {product.description}
               </p>
+              {
+                product.price &&
+                  <div
+                      className="text-lg font-semibold leading-relaxed text-zinc-800"
+                      data-oid="qxg9tzv">
+
+                    {formatter.format(product.price)}  ₽
+                  </div>
+              }
+
             </div>
 
             {/* Contact Section */}
@@ -158,20 +179,6 @@ export default async function ProductPage({
               </ul>
             </div>
 
-            <div data-oid=":_hlkbb">
-              <h4 className="font-medium mb-3" data-oid="3x46wy5">
-                Материалы
-              </h4>
-              <ul
-                className="space-y-2 text-sm text-zinc-600"
-                data-oid="9tj.xrv">
-
-                <li data-oid="v478..c">• Карельский гранит</li>
-                <li data-oid="koupd8z">• Габбро-диабаз</li>
-                <li data-oid="lgt__.b">• Shanxi Black</li>
-                <li data-oid="pgezox5">• Aurora</li>
-              </ul>
-            </div>
           </div>
         </div>
       </div>);

@@ -26,7 +26,10 @@ export default function Page() {
                 Изготовление памятников по каталогу и индивидуальным проектам
               </li>
               <li className="card p-4" data-oid="u7ftnbo">
-                Гравировка и худож. портреты
+                Изготовление оград
+              </li>
+              <li className="card p-4" data-oid="u7ftnbo">
+                Гравировка и художественные портреты
               </li>
               <li className="card p-4" data-oid="3:y19._">
                 Монтаж, реконструкция, благоустройство

@@ -18,6 +18,8 @@ export interface Product {
   name: string;
   description: string;
   imageUrl: string;
+  size: string | null;
+  price: number | null;
   categoryId: number;
 }
 

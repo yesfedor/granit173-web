@@ -4,18 +4,21 @@ import HeroStone from '@/app/assets/hero-stone.jpg'
 export default function Hero() {
   return (
     <section className="relative overflow-hidden" data-oid="yv5kr43">
+
       <div
         className="container-safe py-16 md:py-24 grid md:grid-cols-2 gap-10 items-center"
         data-oid=":a-htcy">
 
         <div data-oid="rzcjlwv">
+          <div className="text-5xl font-bold mb-4">
+            Гравюрная мастерская <br/> "Вечная память"
+          </div>
           <span className="badge" data-oid="s4hc6b5">
             Ульяновск
           </span>
           <h1
             className="mt-4 text-3xl md:text-5xl font-semibold tracking-tight"
             data-oid="kjl0aju">
-
             Памятники из мрамора гранита
             <span
               className="block text-zinc-600 text-xl md:text-2xl mt-3"

@@ -25,6 +25,10 @@ export default function Contacts() {
 
                 8 927 805-11-00
               </a>
+
+              <span className="ms-2">
+                Ул. Осиновая 2
+              </span>
             </li>
             <li data-oid="857k1aw">
               Тел.:{" "}
@@ -35,6 +39,9 @@ export default function Contacts() {
 
                 8 927 989-70-00
               </a>
+              <span className="ms-2">
+                Пр-кт Ульяновский 10
+              </span>
             </li>
             <li data-oid="9_qih1u">
               Email:{" "}
@@ -42,25 +49,19 @@ export default function Contacts() {
                 className="font-medium hover:text-zinc-900"
                 href="mailto:granit.173@mail.ru"
                 data-oid="7_82r:i">
-
                 granit.173@mail.ru
               </a>
-            </li>
-            <li>
-              Пр-кт ульяновский 10
-            </li>
-            <li>
-              Ул. осиновая 2
+
             </li>
           </ul>
         </div>
         <div className="card p-4" data-oid="i6yz6l0">
           <div
-            className="aspect-video w-full rounded-lg bg-[url('/map-ulsk.jpg')] bg-cover bg-center ring-1 ring-zinc-200"
-            data-oid="o57n7q4" />
-
-          <div className="mt-3 text-xs text-zinc-500" data-oid="5hoorbr">
-            Для навигации используйте телефоны из списка контактов.
+              className="aspect-video w-full rounded-lg bg-[url('/map-ulsk.jpg')] bg-cover bg-center ring-1 ring-zinc-200"
+              data-oid="o57n7q4">
+            <iframe
+                src="https://yandex.ru/map-widget/v1/?um=constructor%3A276e4f2437dfe7bb8ea54f08062c07895f731f831c24ff6f915c5fd6114c6f39&amp;source=constructor"
+                width="100%" height="288" frameBorder="0"></iframe>
           </div>
         </div>
       </div>
