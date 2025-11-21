@@ -12,6 +12,12 @@ export interface Category {
   imageUrl: string;
 }
 
+export interface Gallery {
+  id: number;
+  name: string;
+  imageUrl: string;
+}
+
 export interface Product {
   id: number;
   slug: string;
@@ -53,4 +59,9 @@ export interface CategoryProductsResponse {
 export interface ProductResponse {
   success: boolean;
   data: Product;
+}
+
+export interface GalleryResponse {
+  success: boolean;
+  data: Gallery[];
 }

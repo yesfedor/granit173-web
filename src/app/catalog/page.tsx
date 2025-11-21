@@ -59,10 +59,10 @@ export default async function CatalogPage() {
         Не нашли нужную модель? Позвоните нам:{" "}
         <a
           className="font-medium hover:text-zinc-900"
-          href="tel:+79278051100"
+            href="tel:+79278287000"
           data-oid="qhn2ldx">
 
-          8 927 805-11-00
+          8 927 828-70-00
         </a>
       </div>
     </div>);

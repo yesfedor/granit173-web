@@ -44,7 +44,7 @@ export default function Page() {
               Задайте вопрос специалисту
             </div>
             <a
-              href="tel:+79278051100"
+              href="tel:+79278287000"
               className="btn btn-primary mt-4 w-full"
               data-oid="h1u0849">
 

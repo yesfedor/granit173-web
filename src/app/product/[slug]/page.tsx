@@ -130,11 +130,11 @@ export default async function ProductPage({
 
               <div className="space-y-3" data-oid=":sa98.l">
                 <a
-                  href="tel:+79278051100"
+                  href="tel:+79278287000"
                   className="flex items-center justify-center w-full bg-zinc-900 text-white px-6 py-3 rounded-lg hover:bg-zinc-800 transition-colors"
                   data-oid="h:o-7ju">
 
-                  Позвонить: 8 927 805-11-00
+                  Позвонить: 8 927 828-70-00
                 </a>
 
                 <a

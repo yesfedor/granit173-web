@@ -6,6 +6,7 @@ import { usePathname } from "next/navigation";
 const nav = [
 { href: "/", label: "Главная" },
 { href: "/catalog", label: "Каталог" },
+{ href: "/our-works", label: "Наши работы" },
 ];
 
 
@@ -53,11 +54,10 @@ export default function Navbar() {
 
         <div className="flex items-center gap-3" data-oid="i2n6ufp">
           <a
-            href="tel:+79278051100"
+            href="tel:+79278287000"
             className="hidden sm:inline text-sm text-zinc-700 hover:text-zinc-900"
             data-oid="ajv_4py">
-
-            8 927 805-11-00
+            8 927 828-70-00
           </a>
           <a
             href="tel:+79279897000"

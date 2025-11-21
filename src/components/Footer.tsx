@@ -7,7 +7,7 @@ export default function Footer() {
 
         <div data-oid="9yn_3q5">
           <div className="font-semibold" data-oid="to1:c:b">
-            Гравюрная мастерская "Вечная Память"
+            Гравёрная мастерская "Вечная Память"
           </div>
           <p className="mt-2 text-sm text-zinc-600" data-oid="407ck14">
             Памятники из мрамора и гранита в Ульяновске. Изготовление, установка,
@@ -26,9 +26,9 @@ export default function Footer() {
               Тел.:{" "}
               <a
                 className="hover:text-zinc-900"
-                href="tel:+79278051100"
+                href="tel:+79278287000"
                 data-oid="p7gzqfy">
-                8 927 805-11-00
+                8 927 828-70-00
               </a>
               <span className="ms-2">
                 Ул. Осиновая 2 (9:00-16:00)

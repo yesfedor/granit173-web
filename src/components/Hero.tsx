@@ -11,7 +11,7 @@ export default function Hero() {
 
         <div data-oid="rzcjlwv">
           <div className="text-5xl font-bold mb-4">
-            Гравюрная мастерская <br/> "Вечная память"
+            Гравёрная мастерская <br/> "Вечная память"
           </div>
           <span className="badge" data-oid="s4hc6b5">
             Ульяновск
@@ -43,7 +43,7 @@ export default function Hero() {
               Каталог
             </Link>
             <a
-              href="tel:+79278051100"
+              href="tel:+79278287000"
               className="btn btn-outline"
               data-oid="m9npgh3">
 

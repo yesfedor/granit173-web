@@ -40,3 +40,11 @@ export async function fetchProduct(slug: string) {
   }
   return response.json();
 }
+
+export async function fetchGallery() {
+  const response = await fetch(`${API_BASE_URL}/api/gallery`);
+  if (!response.ok) {
+    throw new Error("Failed to fetch gallery");
+  }
+  return response.json();
+}
