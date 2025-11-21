@@ -1,6 +1,12 @@
 import {GalleryResponse} from "@/types";
 import {fetchGallery, getFullImageUrl} from "@/utils/api";
 
+export const dynamic = 'force-dynamic'
+
+export const metadata = {
+  title: "Каталог памятников — Granit173"
+};
+
 export default async function GalleryPage() {
     const galleryResponse: GalleryResponse = await fetchGallery();
     const categories = galleryResponse.data;
