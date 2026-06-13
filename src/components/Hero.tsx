@@ -43,7 +43,7 @@ export default function Hero() {
               Каталог
             </Link>
             <a
-              href="tel:+79278287000"
+              href="tel:+79279897000"
               className="btn btn-outline"
               data-oid="m9npgh3">
 

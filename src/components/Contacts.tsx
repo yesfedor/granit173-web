@@ -20,9 +20,9 @@ export default function Contacts() {
               Тел.:{" "}
               <a
                 className="font-medium hover:text-zinc-900"
-                href="tel:+79278287000"
+                href="tel:+79279897000"
                 data-oid="nk2orcr">
-                8 927 828-70-00
+                8 927 989-70-00
               </a>
 
               <span className="ms-2">
@@ -33,14 +33,11 @@ export default function Contacts() {
               Тел.:{" "}
               <a
                 className="font-medium hover:text-zinc-900"
-                href="tel:+79279897000"
+                href="tel:+79278287000"
                 data-oid="-ftuj6_">
 
-                8 927 989-70-00
+                8 927 828-70-00
               </a>
-              <span className="ms-2">
-                Пр-кт Ульяновский 10
-              </span>
             </li>
             <li data-oid="9_qih1u">
               Email:{" "}

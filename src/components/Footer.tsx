@@ -26,9 +26,9 @@ export default function Footer() {
               Тел.:{" "}
               <a
                 className="hover:text-zinc-900"
-                href="tel:+79278287000"
+                href="tel:+79279897000"
                 data-oid="p7gzqfy">
-                8 927 828-70-00
+                8 927 989-70-00
               </a>
               <span className="ms-2">
                 Ул. Осиновая 2 (9:00-16:00)
@@ -38,14 +38,11 @@ export default function Footer() {
               Тел.:{" "}
               <a
                 className="hover:text-zinc-900"
-                href="tel:+79279897000"
+                href="tel:+79278287000"
                 data-oid="zgjqsj2">
 
-                8 927 989-70-00
+                8 927 828-70-00
               </a>
-              <span className="ms-2">
-                Пр-кт Ульяновский 10 (10:00-18:00)
-              </span>
             </li>
           </ul>
         </div>

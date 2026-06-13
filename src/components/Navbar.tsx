@@ -54,17 +54,17 @@ export default function Navbar() {
 
         <div className="flex items-center gap-3" data-oid="i2n6ufp">
           <a
-            href="tel:+79278287000"
+            href="tel:+79279897000"
             className="hidden sm:inline text-sm text-zinc-700 hover:text-zinc-900"
             data-oid="ajv_4py">
-            8 927 828-70-00
+            8 927 989-70-00
           </a>
           <a
-            href="tel:+79279897000"
+            href="tel:+79278287000"
             className="hidden lg:inline text-sm text-zinc-700 hover:text-zinc-900"
             data-oid="_ya:07.">
 
-            8 927 989-70-00
+            8 927 828-70-00
           </a>
           <Link
             href="/catalog"
